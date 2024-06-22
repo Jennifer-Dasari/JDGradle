@@ -3,7 +3,7 @@ package gradleprojects
 //the given position will be in the range 0 .....string length -1inclusive
 object charRemoval {
   def main(args: Array[String]): Unit = {
-    println(removingChar("john", 3))
+    println(removingChar("jon", 3))
     println("bsadhb")
   }
   def removingChar(a: String, b:Int): String = {
