@@ -4,6 +4,7 @@ package gradleprojects
 object charRemoval {
   def main(args: Array[String]): Unit = {
     println(removingChar("jon", 3))
+    println(removingChar("jennifer", 3))
     println("bsadhb")
   }
   def removingChar(a: String, b:Int): String = {
