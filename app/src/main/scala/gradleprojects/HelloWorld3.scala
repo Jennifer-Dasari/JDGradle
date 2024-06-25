@@ -10,7 +10,7 @@ object HelloWorld3 {
   }
 
   def main(args: Array[String]): Unit = {
-    DriverManager.getConnection()
+    //DriverManager.getConnection()
     println("Hello, World!")
 //creating an trait instance
     val sp = new BehavelikeHuman[Dog]{
